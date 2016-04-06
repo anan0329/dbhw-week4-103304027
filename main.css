@@ -1,5 +1,5 @@
 .col-md-4 {
-  height: 850px;
+  height: 650px;
   overflow: auto;
   opacity: 0;
 }
@@ -34,15 +34,15 @@
 
 
 .sk-cube-grid {
-  width: 40px;
-  height: 40px;
-  margin: 100px auto;
+  width:40px; 
+  height:40px; 
+  margin-bottom: 300px;
 }
 
 .sk-cube-grid .sk-cube {
-  width: 33%;
-  height: 33%;
-  background-color: #00FFFF;
+  width: 220%;
+  height: 22%;
+  background-color: #CA8EFF;
   float: left;
   -webkit-animation: sk-cubeGridScaleDelay 1.2s infinite ease-in-out;
           animation: sk-cubeGridScaleDelay 1.2s infinite ease-in-out;
@@ -150,3 +150,4 @@
     transform: translateY(0px);
   }
 }
+  
